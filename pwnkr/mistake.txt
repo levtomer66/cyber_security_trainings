@@ -1,0 +1,6 @@
+mistake@pwnable:~$ ./mistake
+do not bruteforce...
+0000000000
+input password : 1111111111
+Password OK
+Mommy, the operator priority always confuses me :(

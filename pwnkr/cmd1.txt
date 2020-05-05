@@ -1,0 +1,2 @@
+./cmd1 "/bin/cat /home/cmd1/fl?g"
+mommy now I get what PATH environment is for :)

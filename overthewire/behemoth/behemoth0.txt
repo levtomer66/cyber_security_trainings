@@ -1,0 +1,6 @@
+behemoth0@behemoth:/behemoth$ ./behemoth0
+Password: eatmyshorts
+Access granted..
+$
+$ cat /etc/behemoth_pass/behemoth1
+aesebootiv

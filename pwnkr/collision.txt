@@ -1,0 +1,2 @@
+./col `python -c "print '\xc8\xce\xc5\x06' * 4 + '\xcc\xce\xc5\x06'"`
+daddy! I just managed to create a hash collision :)

